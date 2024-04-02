@@ -59,6 +59,7 @@ return [
             'default' => MessageNotifyInterface::INFO,
             'pipeline' => [
                 'info' => [
+                    'uri' => env('NOTIFY_WECHAT_URL', 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key='),
                     'token' => env('NOTIFY_WECHAT_TOKEN'),
                 ],
             ],

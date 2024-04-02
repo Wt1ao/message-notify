@@ -1,8 +1,13 @@
 {
-    "name": "vinchan/message-notify",
+    "name": "tx_admin/message-notify",
     "description": "MIT",
     "license": "MIT",
     "authors": [
+        {
+            "name": "tx-admin",
+            "email": "wagchao9508@gmail.com",
+            "role": "translator"
+        },
         {
             "name": "Vinchan",
             "email": "ademo@vip.qq.com"
